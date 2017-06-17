@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let animationView = LOTAnimationView(contentsOf: URL(string: "https://github.com/airbnb/lottie-ios/raw/master/Example/Assets/PinJump.json")!) {
+        if let animationView = LOTAnimationView(contentsOf: URL(string: "https://www.lottiefiles.com/storage/datafiles/9kxERcG6bTQG5RR/data.json")!) {
             animationView.frame = CGRect(x: 0, y: 0, width: 400, height: 400)
             animationView.center = self.view.center
             animationView.contentMode = .scaleAspectFill
