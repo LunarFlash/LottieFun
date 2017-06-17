@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D0E46771EF4F03500F28449 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E46761EF4F03500F28449 /* AppDelegate.swift */; };
+		9D0E46791EF4F03500F28449 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E46781EF4F03500F28449 /* ViewController.swift */; };
+		9D0E467C1EF4F03500F28449 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E467A1EF4F03500F28449 /* Main.storyboard */; };
+		9D0E467E1EF4F03500F28449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E467D1EF4F03500F28449 /* Assets.xcassets */; };
+		9D0E46811EF4F03500F28449 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E467F1EF4F03500F28449 /* LaunchScreen.storyboard */; };
+		9D0E46891EF4F14B00F28449 /* servishero_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E46881EF4F14B00F28449 /* servishero_loading.json */; };
+		B8285C15C1A557B20D7CF295 /* Pods_LottieFun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE55D4E108A97FEA84EF1FAC /* Pods_LottieFun.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28791DC0D71FAA130EC02539 /* Pods-LottieFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieFun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LottieFun/Pods-LottieFun.debug.xcconfig"; sourceTree = "<group>"; };
+		9D0E46731EF4F03500F28449 /* LottieFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D0E46761EF4F03500F28449 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D0E46781EF4F03500F28449 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D0E467B1EF4F03500F28449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D0E467D1EF4F03500F28449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D0E46801EF4F03500F28449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D0E46821EF4F03500F28449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D0E46881EF4F14B00F28449 /* servishero_loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = servishero_loading.json; sourceTree = "<group>"; };
+		9D1DFD381C8C886301F7CB01 /* Pods-LottieFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieFun.release.xcconfig"; path = "Pods/Target Support Files/Pods-LottieFun/Pods-LottieFun.release.xcconfig"; sourceTree = "<group>"; };
+		FE55D4E108A97FEA84EF1FAC /* Pods_LottieFun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieFun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D0E46701EF4F03400F28449 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8285C15C1A557B20D7CF295 /* Pods_LottieFun.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		240A0356C2477D56940CC647 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28791DC0D71FAA130EC02539 /* Pods-LottieFun.debug.xcconfig */,
+				9D1DFD381C8C886301F7CB01 /* Pods-LottieFun.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3EAE4BB120831AFBBE5A44DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE55D4E108A97FEA84EF1FAC /* Pods_LottieFun.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D0E466A1EF4F03400F28449 = {
+			isa = PBXGroup;
+			children = (
+				9D0E46751EF4F03500F28449 /* LottieFun */,
+				9D0E46741EF4F03500F28449 /* Products */,
+				240A0356C2477D56940CC647 /* Pods */,
+				3EAE4BB120831AFBBE5A44DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D0E46741EF4F03500F28449 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D0E46731EF4F03500F28449 /* LottieFun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D0E46751EF4F03500F28449 /* LottieFun */ = {
+			isa = PBXGroup;
+			children = (
+				9D0E46881EF4F14B00F28449 /* servishero_loading.json */,
+				9D0E46761EF4F03500F28449 /* AppDelegate.swift */,
+				9D0E46781EF4F03500F28449 /* ViewController.swift */,
+				9D0E467A1EF4F03500F28449 /* Main.storyboard */,
+				9D0E467D1EF4F03500F28449 /* Assets.xcassets */,
+				9D0E467F1EF4F03500F28449 /* LaunchScreen.storyboard */,
+				9D0E46821EF4F03500F28449 /* Info.plist */,
+			);
+			path = LottieFun;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D0E46721EF4F03400F28449 /* LottieFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D0E46851EF4F03500F28449 /* Build configuration list for PBXNativeTarget "LottieFun" */;
+			buildPhases = (
+				F1E66EF0CD98176F897C2FE7 /* [CP] Check Pods Manifest.lock */,
+				9D0E466F1EF4F03400F28449 /* Sources */,
+				9D0E46701EF4F03400F28449 /* Frameworks */,
+				9D0E46711EF4F03400F28449 /* Resources */,
+				7218248EEBFC4B2277D80E71 /* [CP] Embed Pods Frameworks */,
+				BEE099F46AD1E2716295EE16 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LottieFun;
+			productName = LottieFun;
+			productReference = 9D0E46731EF4F03500F28449 /* LottieFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D0E466B1EF4F03400F28449 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Vento;
+				TargetAttributes = {
+					9D0E46721EF4F03400F28449 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HD5UELD683;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9D0E466E1EF4F03400F28449 /* Build configuration list for PBXProject "LottieFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D0E466A1EF4F03400F28449;
+			productRefGroup = 9D0E46741EF4F03500F28449 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D0E46721EF4F03400F28449 /* LottieFun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D0E46711EF4F03400F28449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0E46811EF4F03500F28449 /* LaunchScreen.storyboard in Resources */,
+				9D0E467E1EF4F03500F28449 /* Assets.xcassets in Resources */,
+				9D0E46891EF4F14B00F28449 /* servishero_loading.json in Resources */,
+				9D0E467C1EF4F03500F28449 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7218248EEBFC4B2277D80E71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LottieFun/Pods-LottieFun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEE099F46AD1E2716295EE16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LottieFun/Pods-LottieFun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1E66EF0CD98176F897C2FE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D0E466F1EF4F03400F28449 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0E46791EF4F03500F28449 /* ViewController.swift in Sources */,
+				9D0E46771EF4F03500F28449 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D0E467A1EF4F03500F28449 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D0E467B1EF4F03500F28449 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D0E467F1EF4F03500F28449 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D0E46801EF4F03500F28449 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D0E46831EF4F03500F28449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D0E46841EF4F03500F28449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D0E46861EF4F03500F28449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28791DC0D71FAA130EC02539 /* Pods-LottieFun.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HD5UELD683;
+				INFOPLIST_FILE = LottieFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ven.LottieFun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9D0E46871EF4F03500F28449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D1DFD381C8C886301F7CB01 /* Pods-LottieFun.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HD5UELD683;
+				INFOPLIST_FILE = LottieFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ven.LottieFun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D0E466E1EF4F03400F28449 /* Build configuration list for PBXProject "LottieFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D0E46831EF4F03500F28449 /* Debug */,
+				9D0E46841EF4F03500F28449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D0E46851EF4F03500F28449 /* Build configuration list for PBXNativeTarget "LottieFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D0E46861EF4F03500F28449 /* Debug */,
+				9D0E46871EF4F03500F28449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D0E466B1EF4F03400F28449 /* Project object */;
+}
