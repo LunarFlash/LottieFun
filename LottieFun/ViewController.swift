@@ -14,16 +14,18 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let animationView = LOTAnimationView(contentsOf: URL(string: "https://www.lottiefiles.com/storage/datafiles/9kxERcG6bTQG5RR/data.json")!) {
+        if let animationView = LOTAnimationView(contentsOf: URL(string: "https://www.lottiefiles.com/storage/datafiles/0BklE7L1HhdHa4v/data.json")!) {
             animationView.frame = CGRect(x: 0, y: 0, width: 400, height: 400)
             animationView.center = self.view.center
             animationView.contentMode = .scaleAspectFill
             view.addSubview(animationView)
             animationView.loopAnimation = true
-            animationView.animationSpeed = 0.5
+            animationView.animationSpeed = 1.5
+            
             
             let rotateTransform = CGAffineTransform(rotationAngle: 45.0)
             animationView.transform = rotateTransform
+            
             
             // Applying UIView animation
             let minimizeTransform = CGAffineTransform(scaleX: 0.1, y: 0.1)
