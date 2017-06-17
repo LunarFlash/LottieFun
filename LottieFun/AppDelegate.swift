@@ -1,4 +1,4 @@
-//
+//  http://www.appcoda.com/lottie-beginner-guide/
 //  AppDelegate.swift
 //  LottieFun
 //
